@@ -1,6 +1,6 @@
 # product_catalog
 This repo contains a product catalog site for a cake shop
-# Product Catalog API
+# API
 
 This is a simple Product Catalog API built with Go (Golang), using the Gin web framework and MongoDB Atlas for database storage.
 
@@ -13,7 +13,7 @@ This is a simple Product Catalog API built with Go (Golang), using the Gin web f
 
 ## Prerequisites
 
-- Go (v1.20 or later)
+- Go (v1.22.6 or later)
 - MongoDB Atlas account and connection URI
 - Local environment file (`local.env`) for environment variables
 
