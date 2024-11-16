@@ -7,12 +7,6 @@ This repo contains a product catalog site for a cake shop.
 
 This is a simple Product Catalog API built with Go (Golang), using the Gin web framework and MongoDB Atlas for database storage.
 
-## Prerequisites
-
-- Go (v1.22.6 or later)
-- MongoDB Atlas account and connection URI
-- Local environment file (`local.env`) for environment variables
-
 ## Installation
 
 1. Clone the repository:
@@ -150,3 +144,9 @@ After setting up the cluster:
 3. Replace `<username>`, `<password>`, and `<database>` with your actual credentials and database name.
 
 ### 3. Set Up Environment Variables
+
+1. In the root directory of your project, create a `.env` file (if it doesn’t already exist).
+2. Add your MongoDB URI as follows:
+
+```env
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/catalog?retryWrites=true&w=majority
