@@ -29,3 +29,14 @@ This is a simple Product Catalog API built with Go (Golang), using the Gin web f
    ```bash
    curl -X GET http://localhost:8080/cakes
 
+### 2. Get a Cake by Id
+
+**Endpoint:**  
+`GET /cake/:id`
+
+**Example:**
+
+   ```bash
+   curl -X GET http://localhost:8080/cake/64afc8e9e5c8e53e857ab9a5
+
+
