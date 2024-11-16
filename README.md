@@ -4,13 +4,6 @@ This repo contains a product catalog site for a cake shop
 
 This is a simple Product Catalog API built with Go (Golang), using the Gin web framework and MongoDB Atlas for database storage.
 
-## Features
-
-- Retrieve all cakes
-- Retrieve a specific cake by ID
-- Add a new cake
-- Delete a cake by a specific field
-
 ## Prerequisites
 
 - Go (v1.22.6 or later)
@@ -23,6 +16,19 @@ This is a simple Product Catalog API built with Go (Golang), using the Gin web f
 
    ```bash
    git clone https://github.com/goprojs/product_catalog/backend_api.git
+
+## Query
+
+### 1. Get All Cakes
+
+**Endpoint:**  
+`GET /cakes`
+
+**Example:**
+
+```bash
+curl -X GET http://localhost:8080/cakes
+
 
 # MongoDB Atlas Connection 
 
